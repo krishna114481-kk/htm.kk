@@ -1,66 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Krishna Zung Karki - Portfolio</title>
+    <title>Krishna Zung Karki | Personal Portfolio</title>
 </head>
+
 <body>
 
-    <h1>Krishna Zung Karki</h1>
-    <p><strong>Student | Aspiring Software Developer | Technology Enthusiast</strong></p>
+    <header>
+        <h1>Krishna Zung Karki</h1>
+        <p>
+            Bachelor of Information Technology (BIT) Student |
+            Aspiring Software Developer |
+            Cybersecurity Enthusiast
+        </p>
 
-    <hr>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Technical Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h2>About Me</h2>
-    <p>
-        Hello! My name is <strong>Krishna Zung Karki</strong>. I am passionate about
-        programming, web development, cloud computing, and cybersecurity.
-        I enjoy learning new technologies and building projects that solve real-world problems.
-    </p>
+    <main>
 
-    <hr>
+        <section id="about">
+            <h2>About Me</h2>
 
-    <h2>Education</h2>
-    <ul>
-        <li>Bachelor's Degree in Computer Science</li>
-        <li>International American University (IAU)</li>
-    </ul>
+            <img
+                src="images/profile.jpg"
+                alt="Portrait of Krishna Zung Karki"
+                width="150"
+                height="150">
 
-    <hr>
+            <p>
+                Hello! My name is <strong>Krishna Zung Karki</strong>.
+                I am currently pursuing a Bachelor of Information Technology (BIT)
+                at MIT College, Bagbazar, Kathmandu. I completed my +2 education
+                at Omega International College, Kumaripati, Lalitpur.
+                I am passionate about software development, cybersecurity,
+                and web technologies. I enjoy learning new technologies,
+                solving technical problems, and developing practical projects
+                that strengthen my programming and technical skills.
+            </p>
+        </section>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>C Programming</li>
-        <li>Java</li>
-        <li>HTML</li>
-        <li>Python</li>
-        <li>AWS Cloud Fundamentals</li>
-        <li>Linux</li>
-    </ul>
+        <section id="skills">
+            <h2>Technical Skills</h2>
 
-    <hr>
+            <dl>
 
-    <h2>Projects</h2>
-    <ol>
-        <li>Student Management System</li>
-        <li>Portfolio Website</li>
-        <li>Cloud Computing Lab Projects</li>
-        <li>Java Console Applications</li>
-    </ol>
+                <dt>Programming Languages</dt>
+                <dd>C, Java, Python</dd>
 
-    <hr>
+                <dt>Web Development</dt>
+                <dd>HTML5</dd>
 
-    <h2>Contact</h2>
-    <p>Email: krishna@example.com</p>
-    <p>Phone: +977-98XXXXXXXX</p>
-    <p>Location: Nepal</p>
+                <dt>Operating Systems</dt>
+                <dd>Windows, Ubuntu Linux</dd>
 
-    <hr>
+                <dt>Cybersecurity</dt>
+                <dd>Introduction to Cyber Security (Cisco Networking Academy)</dd>
+
+                <dt>Soft Skills</dt>
+                <dd>Energetic, Dynamic, Quick Learner, Good Communication Skills</dd>
+
+                <dt>Languages</dt>
+                <dd>Nepali, English, Hindi</dd>
+
+            </dl>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article>
+
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    Developed a single-page personal portfolio using semantic
+                    HTML5 elements only. The website showcases my biography,
+                    technical skills, projects, and contact information
+                    without using CSS.
+                </p>
+
+                <p>
+                    Repository:
+                    <a href="https://github.com/yourusername/html-portfolio"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        HTML Portfolio Repository
+                    </a>
+                </p>
+
+            </article>
+
+            <article>
+
+                <h3>Student Management System</h3>
+
+                <p>
+                    Developed a Java console application using object-oriented
+                    programming concepts to manage student records,
+                    calculate grades, and organize student information
+                    efficiently.
+                </p>
+
+                <p>
+                    Repository:
+                    <a href="https://github.com/yourusername/student-management-system"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Student Management System Repository
+                    </a>
+                </p>
+
+            </article>
+
+        </section>
+
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="name">Name</label><br>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required>
+                </p>
+
+                <p>
+                    <label for="email">Email</label><br>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required>
+                </p>
+
+                <p>
+                    <label for="message">Message</label><br>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        cols="40"
+                        required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Send Message</button>
+                </p>
+
+            </form>
+
+        </section>
+
+    </main>
 
     <footer>
+
         <p>&copy; 2026 Krishna Zung Karki. All Rights Reserved.</p>
+
+        <p>Email: krishnazung05@gmail.com</p>
+
+        <p>Phone: +977 9822374010</p>
+
+        <p>Address: New Baneshwor, Kathmandu, Nepal</p>
+
     </footer>
 
 </body>
+
 </html>
