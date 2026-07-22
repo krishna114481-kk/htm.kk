@@ -185,3 +185,26 @@ section h2{
     }
 
 }
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.contact-info strong {
+    color: #1e3a8a;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
